@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Avani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<nav>
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="wrap">
+    <div class="eyebrow">Open to internships</div>
+    <h1>Hey, I'm<br><span class="grad">Avani.</span></h1>
+    <p class="hero-sub">2nd year CS student building things for the web. I care about clean interfaces, thoughtful interactions, and the details in between.</p>
+    <div class="btns">
+      <a href="#projects" class="btn-p">View my work ↓</a>
+      <a href="#contact" class="btn-g">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="label rev">About</div>
+    <h2 class="rev d1">A little about me.</h2>
+    <div class="about-card rev d2">
+      <p>I'm a second-year CS student with a growing love for frontend development. I care deeply about how things look and feel — the micro-interactions, the spacing, those small details that make an interface feel alive. Currently exploring the full stack and figuring out what I want to build next.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-val">2nd</span><span class="stat-lbl">Year CS</span></div>
+        <div class="stat"><span class="stat-val">5+</span><span class="stat-lbl">Projects</span></div>
+        <div class="stat"><span class="stat-val">∞</span><span class="stat-lbl">Caffeine</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <div class="label rev">Projects</div>
+    <h2 class="rev d1">Things I've built.</h2>
+    <p class="sec-sub rev d2">More on <a href="https://github.com/avanipandit7" target="_blank" rel="noopener noreferrer" class="gh-link">GitHub →</a></p>
+    <div class="pgrid">
+
+      <div class="pcard rev d1" onclick="window.open('https://github.com/avanipandit7/Team-Balance', '_blank')">
+        <div class="prow"><div class="picon">⚖️</div><span class="parrow">↗</span></div>
+        <div class="ptitle">TeamBalance</div>
+        <div class="pdesc">A collaborative team management tool for balancing workloads and tracking project progress efficiently.</div>
+        <div class="tags">
+          <span class="tag">React</span><span class="tag">Firebase</span>
+        </div>
+      </div>
+
+      <div class="pcard rev d2" onclick="window.open('https://github.com/avanipandit7/TabSplitter', '_blank')">
+        <div class="prow"><div class="picon">📑</div><span class="parrow">↗</span></div>
+        <div class="ptitle">TabSplitter</div>
+        <div class="pdesc">A simple browser extension for managing and organizing multiple tabs with ease and efficiency.</div>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="pcard rev d3">
+        <div class="prow"><div class="picon">🎵</div><span class="parrow">↗</span></div>
+        <div class="ptitle">moodify</div>
+        <div class="pdesc">Generates Spotify playlists from your current mood using lightweight ML classification and the Spotify Web API.</div>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Spotify API</span><span class="tag">scikit-learn</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="label rev">Skills</div>
+    <h2 class="rev d1">What I work with.</h2>
+    <p class="sec-sub rev d2">Mostly frontend. Slowly getting comfortable on the backend side.</p>
+    <div class="sgrid">
+
+      <div class="sgroup rev d1">
+        <div class="stitle"><span>⚡</span> Frontend</div>
+        <div class="pills">
+          <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span>
+          <span class="pill">React</span><span class="pill">Tailwind</span><span class="pill">TypeScript</span>
+        </div>
+      </div>
+
+      <div class="sgroup rev d2">
+        <div class="stitle"><span>🎨</span> Design</div>
+        <div class="pills">
+          <span class="pill">Figma</span><span class="pill">UI / UX</span><span class="pill">Motion</span><span class="pill">Framer</span>
+        </div>
+      </div>
+
+      <div class="sgroup rev d3">
+        <div class="stitle">
+          <span>🔧</span> Backend
+          <span style="font-size:10px;font-style:italic;letter-spacing:0;text-transform:none;color:rgba(245,245,247,0.3)">(learning)</span>
+        </div>
+        <div class="pills">
+          <span class="pill dim">Node.js</span><span class="pill dim">Python</span>
+          <span class="pill dim">Flask</span><span class="pill dim">REST APIs</span><span class="pill dim">SQL</span>
+        </div>
+      </div>
+
+      <div class="sgroup rev d4">
+        <div class="stitle"><span>🛠️</span> Tools</div>
+        <div class="pills">
+          <span class="pill">Git</span><span class="pill">VS Code</span>
+          <span class="pill">GitHub</span><span class="pill">Vercel</span><span class="pill">Linux</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="label rev">Contact</div>
+    <h2 class="rev d1">Let's talk.</h2>
+    <p class="sec-sub rev d2">Open to internships, collabs, or a good conversation about tech.</p>
+    <div class="cgrid rev d3">
+      <a href="mailto:avanipandit0703@gmail.com" class="citem" target="_blank" rel="noopener noreferrer">
+        <div class="cicon">✉️</div>
+        <div class="ctxt"><span class="clbl">Email</span><span class="cval">avanipandit0703@gmail.com</span></div>
+      </a>
+      <a href="https://github.com/avanipandit7" class="citem" target="_blank" rel="noopener noreferrer">
+        <div class="cicon">🐙</div>
+        <div class="ctxt"><span class="clbl">GitHub</span><span class="cval">github.com/avanipandit7</span></div>
+      </a>
+      <a href="https://www.linkedin.com/in/avani-pandit-217712332/" class="citem" target="_blank" rel="noopener noreferrer">
+        <div class="cicon">💼</div>
+        <div class="ctxt"><span class="clbl">LinkedIn</span><span class="cval">linkedin.com/in/avani-pandit</span></div>
+      </a>
+      <a href="#" class="citem">
+        <div class="cicon">🐦</div>
+        <div class="ctxt"><span class="clbl">Twitter / X</span><span class="cval">@avanicodes</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>Crafted with care &middot; 2025 &middot; Avani</footer>
+
+<script>
+/* ── WebGL Shader ── */
+const canvas = document.getElementById('bg');
+const gl = canvas.getContext('webgl');
+function resize(){ canvas.width=window.innerWidth; canvas.height=window.innerHeight; gl.viewport(0,0,canvas.width,canvas.height); }
+resize(); window.addEventListener('resize',resize);
+const vert=`attribute vec2 p;void main(){gl_Position=vec4(p,0.0,1.0);}`;
+const frag=`precision highp float;
+uniform float t;uniform vec2 res;uniform vec2 mouse;
+vec3 pal(float v){vec3 a=vec3(0.26,0.20,0.52);vec3 b=vec3(0.16,0.10,0.36);vec3 c=vec3(0.42,0.28,0.88);vec3 d=vec3(0.00,0.08,0.42);return a+b*cos(6.28318*(c*v+d));}
+float sdSph(vec3 p,float r){return length(p)-r;}
+float smin(float a,float b,float k){float h=max(k-abs(a-b),0.0)/k;return min(a,b)-h*h*h*k/6.0;}
+float scene(vec3 p){float s1=sdSph(p-vec3(sin(t*0.40)*1.20,cos(t*0.31)*0.85,0.0),1.40);float s2=sdSph(p-vec3(cos(t*0.52)*1.00,sin(t*0.38)*1.20,0.5),1.12);float s3=sdSph(p-vec3(sin(t*0.36+1.1)*0.9,cos(t*0.44+2.0)*1.0,-0.3),0.95);return smin(smin(s1,s2,1.9),s3,1.9);}
+void main(){vec2 uv=(gl_FragCoord.xy-res*0.5)/res.y;vec2 mo=(mouse-res*0.5)/res.y;vec3 ro=vec3(0.0,0.0,4.8);vec3 rd=normalize(vec3(uv+mo*0.10,-1.6));float d=0.0;bool hit=false;for(int i=0;i<72;i++){float s=scene(ro+rd*d);if(s<0.004){hit=true;break;}if(d>12.0)break;d+=s*0.62;}vec3 col=vec3(0.0);if(hit){vec3 p=ro+rd*d;vec3 e=vec3(0.001,0.0,0.0);vec3 n=normalize(vec3(scene(p+e.xyy)-scene(p-e.xyy),scene(p+e.yxy)-scene(p-e.yxy),scene(p+e.yyx)-scene(p-e.yyx)));float diff=max(dot(n,normalize(vec3(1.0,1.0,1.0))),0.0);float rim=1.0-max(dot(n,-rd),0.0);col=pal(d*0.08+t*0.14)*(diff*0.55+0.32);col+=pal(d*0.06+t*0.19+0.5)*pow(rim,3.2)*0.85;}else{col=pal(t*0.09)*exp(-length(uv)*3.8)*0.28;}col*=1.0-smoothstep(0.38,1.0,length(uv));gl_FragColor=vec4(col,1.0);}`;
+function mk(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);return s;}
+const prog=gl.createProgram();
+gl.attachShader(prog,mk(gl.VERTEX_SHADER,vert));gl.attachShader(prog,mk(gl.FRAGMENT_SHADER,frag));
+gl.linkProgram(prog);gl.useProgram(prog);
+const vbo=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,vbo);
+gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+const loc=gl.getAttribLocation(prog,'p');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+const uT=gl.getUniformLocation(prog,'t'),uRes=gl.getUniformLocation(prog,'res'),uMo=gl.getUniformLocation(prog,'mouse');
+let mx=canvas.width/2,my=canvas.height/2;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});
+(function loop(ts){gl.uniform1f(uT,ts*0.001);gl.uniform2f(uRes,canvas.width,canvas.height);gl.uniform2f(uMo,mx,canvas.height-my);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);requestAnimationFrame(loop);})(0);
+
+/* ── Scroll Reveal ── */
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('on'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.rev').forEach(el => io.observe(el));
+
+/* ── Nav: smooth scroll + active highlight ── */
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+const secs  = document.querySelectorAll('section[id]');
+const links = document.querySelectorAll('nav a');
+function setActive() {
+  let cur = '';
+  secs.forEach(s => { if (window.scrollY >= s.offsetTop - 250) cur = s.id; });
+  links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur));
+}
+window.addEventListener('scroll', setActive);
+setActive();
+
+/* ── Project card glow ── */
+document.querySelectorAll('.pcard').forEach(c => {
+  c.addEventListener('mousemove', e => {
+    const r = c.getBoundingClientRect();
+    c.style.setProperty('--mx', ((e.clientX - r.left) / r.width  * 100) + '%');
+    c.style.setProperty('--my', ((e.clientY - r.top)  / r.height * 100) + '%');
+  });
+});
+</script>
+</body>
+</html>
