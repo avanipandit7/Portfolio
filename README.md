@@ -9,7 +9,7 @@ A clean, responsive, and interactive personal portfolio website showcasing my pr
 
 ---
 
-## 🌟 Features
+## 🌟 Features :
 
 - **Interactive WebGL Background:** Built with custom GLSL shaders (raymarching) that respond to mouse movements.
 - **Dynamic Project Glow Effects:** Mouse-tracking radial gradient effects on project cards using CSS custom properties (`--mx`, `--my`).
@@ -18,7 +18,7 @@ A clean, responsive, and interactive personal portfolio website showcasing my pr
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects :
 
 | Project | Description | Tech Stack | Link |
 | :--- | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ A clean, responsive, and interactive personal portfolio website showcasing my pr
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Skills :
 
 - **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS, TypeScript
 - **Design:** Figma, UI/UX, Motion, Framer
@@ -37,7 +37,7 @@ A clean, responsive, and interactive personal portfolio website showcasing my pr
 
 ---
 
-## 💻 Local Setup
+## 💻 Local Setup :
 
 1. **Clone the repository:**
    ```bash
