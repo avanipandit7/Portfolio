@@ -1,4 +1,4 @@
-# Portfolio — Avani
+# Portfolio 
 
 A clean, responsive, and interactive personal portfolio website showcasing my projects, technical skills, and experience as a Computer Science student.
 
